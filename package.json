@@ -1,0 +1,24 @@
+{
+  "name": "tutorial1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "build:watch": "tsc --build tsconfig.json --watch",
+    "test": "jest --coverage",
+    "lint": "eslint ./src --ext .ts"
+  },
+  "keywords": [],
+  "author": "Juan Pablo Hurtado",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.9.2"
+  }
+}
